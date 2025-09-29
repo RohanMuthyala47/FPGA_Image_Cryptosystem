@@ -48,7 +48,7 @@ N = 20000;
 fprintf('\nGenerated %d encryption keys from each sequence\n', length(X_keys));
 
 % Plot 3D projections
-plotChen4D_3DProjections(X_full, Y_full, Z_full, W_full, 5000);
+plotChen4D_3DProjections(X_full, Y_full, Z_full, W_full, 20000);
 
 % Optional: Display some statistics
 fprintf('\nSequence Statistics:\n');
